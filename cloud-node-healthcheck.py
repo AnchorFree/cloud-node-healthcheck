@@ -50,6 +50,7 @@ def main():
     # parse arguments
 
     # gather credentials for prometheus / do access
+    #  * export the key as `export DIGITALOCEAN_API_TOKEN=your_token`
 
     missing_nodes = prometheus_missing_nodes()
     # maybe log the output?
